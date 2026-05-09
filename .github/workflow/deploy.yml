@@ -1,0 +1,9 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  run-on:ubuntu-latest:
+    steps:
+      run: echo "deploying to the main branch"

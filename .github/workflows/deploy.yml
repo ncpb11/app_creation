@@ -4,7 +4,8 @@ on:
     branches:
       - main
 jobs:
-  runs-on:ubuntu-latest:
-    steps:
-      run: echo "deploying to the main branch"
-      run: echo "deploying basic code"
+  deploy:
+    runs-on:ubuntu-latest:
+      steps:
+        run: echo "deploying to the main branch"
+        run: echo "deploying basic code"

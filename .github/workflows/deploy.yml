@@ -8,6 +8,8 @@ jobs:
     runs-on:ubuntu-latest
 
     steps:
-      -name: display
+      - name: display
         run: echo "deploying to the main branch"
+        
+      - name: display
         run: echo "deploying basic code"

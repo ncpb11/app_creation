@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      run: |
-        echo "deploying to the staging"
-        echo "deplying to the production"
+      - name: Build
+        run: |
+          echo "deploying to the staging"
+          echo "deploying to the production"

@@ -5,7 +5,9 @@ on:
       - main
 jobs:
   deploy:
-    runs-on:ubuntu-latest:
-      steps:
+    runs-on:ubuntu-latest
+
+    steps:
+      -name: display
         run: echo "deploying to the main branch"
         run: echo "deploying basic code"

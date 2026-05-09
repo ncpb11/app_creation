@@ -15,5 +15,5 @@ jobs:
           echo "deploying to the staging"
           echo "deploying to the production"
 
-      -name: deploy
+      - name: Deploy
         run: echo "deployment completed"
